@@ -1,0 +1,32 @@
+/*
+
+    - Loops offer us a quick and easy way to do something repeatedly, or loop over something
+
+    - there are many different kinds of loops, but they all do roughly the same thing:
+        - the loop will repeat until a specified condition evaluates to false
+
+        - for loop
+        - do while loop
+        - while loop
+        - for in
+        - for of
+
+        - for loop takes in 3 parameters and Keyword
+            1. initial expression (let i = 0;)
+            2. condition <10
+            3. increment expression
+
+            *** separated by semi colon
+*/
+
+for (let i = 0; i < 10; i++) {// i+= i + 1
+console.log(i);
+}
+
+// Challenge: using a for loop, count to 20; by 2
+
+for (let i = 0; i <= 20; i+=2)
+console.log(i);
+
+for (let i = 10; i >=0; i+=1)
+console.log(i);
